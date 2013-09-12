@@ -15,6 +15,8 @@ KISSY 选择器内置仅支持 #id tag.class 常用形式, 考虑 2/8 原则, �
     * tag.cls
     * #id tag.cls
 
+除了支持KISSY内置的选择器以外，默认支持jQuery支持的所有选择器，详见 http://sizzlejs.com/
+
 .. note::
 
   * tag 可以为 ``*`` 字符
