@@ -5,5 +5,6 @@
     :titlesonly:
 
     calendar/index
+    resizable/index
 
 
