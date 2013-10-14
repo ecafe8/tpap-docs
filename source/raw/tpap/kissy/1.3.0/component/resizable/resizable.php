@@ -1,12 +1,13 @@
 <!--include kissy core and resizable file-->
-<cajamodules include="kissy/1.3.0/core,kissy/1.3.0/resizable"/>
+<cajamodules include="kissy/1.3.0/core,kissy/1.3.0/resizable" />
 
 <!--refer js file-->
-<script src="/kissy/1.3.0/component/calendar/resizable.js"></script>
+<script src="/kissy/1.3.0/component/resizable/resizable.js"></script>
+<script src="/assets/javascripts/log.js"></script>
 
-<h1>DEMO</h1>
-
-<div class="resizable_box">
-  	<div class="content"><img src="http://img02.taobaocdn.com/tfscom/i3/T1OLJwFh0fXXb1upjX_310x310.jpg" alt=""></div>
-  	<span>取消</span>
+<div class="resizable_box" style="margin-left:20px; float:left;">
+  	<div class="content"><img src="http://gtms01.alicdn.com/tps/i1/T1zCHuFflXXXcEf.3s-396-396.jpg" alt=""></div>
+  	<span class="cancel">取消</span>
 </div>
+
+<div class="logresult" style="margin-left:20px; float:left; background-color:#111; color:#9F0; padding:10px 20px;"></div>
